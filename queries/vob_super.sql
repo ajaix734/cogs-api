@@ -1,0 +1,1 @@
+select entity,billed,trans_date,surgery,pharmacy,opticals,laboratory,consultation,others,ftd from vob_report where trans_date between ? and ?;

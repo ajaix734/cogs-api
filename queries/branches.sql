@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS branches (
+id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+`entity` VARCHAR(100),
+`branch` VARCHAR(50),
+`code` VARCHAR(50),
+`is_active` BOOLEAN
+)
